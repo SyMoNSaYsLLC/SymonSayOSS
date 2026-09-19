@@ -7,9 +7,9 @@ and from the copyleft builds.
 
 | Repository | Holds | Licence |
 |---|---|---|
-| `SymonSayDistribute` | the runtimes we sell, one branch each, each cutting its own releases | FSL-1.1-ALv2, source-available, no copyleft |
-| `SymonSayOSS` | code we publish openly | permissive: MIT, BSD, Apache-2.0 |
-| `SymonSayOpen` | builds whose output is copyleft, laid out like the distribution | MIT metadata; outputs stay copyleft |
+| `SymonSayDistribute` | the runtimes we sell, one branch each, each cutting its own releases | SymonSaysLLC Open Source License 1.0, source-available, no copyleft |
+| `SymonSayOSS` | code we publish openly | permissive: SymonSaysLLC Open Source License 1.0, BSD, Apache-2.0 |
+| `SymonSayOpen` | builds whose output is copyleft, laid out like the distribution | SymonSaysLLC Open Source License 1.0 metadata; outputs stay copyleft |
 | `SymonSaySource` | what we build from: pins, licences, provenance — never the source bytes | tracking only; ships nothing |
 
 The question that places something is **what licence does the thing we ship under, and can it
@@ -59,8 +59,8 @@ These four trees carry **two** licences between them, and that is the point of t
 
 | Licence | Where | Why there |
 |---|---|---|
-| `FSL-1.1-ALv2` | `SymonSayDistribute` | the product: source-available now, Apache-2.0 two years after each release |
-| `MIT` | `SymonSayOSS`, `SymonSayOpen`, `SymonSaySource` | work meant to combine freely — with copyleft, with anyone's code, with itself |
+| `SymonSaysLLC Open Source License 1.0` | `SymonSayDistribute` | the product: source-available now, Apache-2.0 two years after each release |
+| `SymonSaysLLC Open Source License 1.0` | `SymonSayOSS`, `SymonSayOpen`, `SymonSaySource` | work meant to combine freely — with copyleft, with anyone's code, with itself |
 
 Two rules follow, and they are not the same rule:
 
